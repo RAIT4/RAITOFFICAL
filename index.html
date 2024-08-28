@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="crud">
+        <div class="divv1">
+            <h2>welcome to rait offical website</h2>
+            <p>الرجاء ملء البايانات بالكامل</p>
+        </div>
+            <div id="inputs1"> 
+                <p>اختيار الخدمة :</p>
+                <select id="select2" class="select-box">
+            <option value="ايجاد عمل">احتاج عمل</option>
+            <option value="ايجاد مبيت">احتاج مبيت</option>
+            <option value="طلب ترجمة">احتاج مترجم</option>
+            </select>
+            <div class="select-icon">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            </div>
+                <input placeholder="الرجاء كتابة اسمك بالكامل" type="text" id="btn1inp1">
+                <input placeholder="الرجاء كتابة العمر" type="number" id="btn1inp2">
+                <input placeholder="الرجاء كتابة رقم الهاتف الشخصي" type="number" id="btn1inp3">
+                <input placeholder="الرجاء كتابة الوظيفة" type="text" id="btn1inp4">
+                <input placeholder="تفاصيل عن الخدمة المطلوبة" type="text" id="btn3inp3">
+                <p style="color: red;">في حال عدم ملء البيانات بالكامل لن يتم ارسالها ⛔</p>
+            <div class="sam2">
+            <button onclick="send()" id="sumbit">ارسال</button>
+                </div>
+            </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
